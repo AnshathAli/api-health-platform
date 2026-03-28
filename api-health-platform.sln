@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiHealth.Ingestor", "ApiHealth.Ingestor", "{3B9EA929-88B7-E9D2-2A29-4BFEC2F8E151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHealth_Ingestor", "src\ApiHealth.Ingestor\ApiHealth_Ingestor.csproj", "{23CB3F05-9756-2746-7318-98177D2A2DB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23CB3F05-9756-2746-7318-98177D2A2DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CB3F05-9756-2746-7318-98177D2A2DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CB3F05-9756-2746-7318-98177D2A2DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CB3F05-9756-2746-7318-98177D2A2DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B9EA929-88B7-E9D2-2A29-4BFEC2F8E151} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{23CB3F05-9756-2746-7318-98177D2A2DB9} = {3B9EA929-88B7-E9D2-2A29-4BFEC2F8E151}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CAC6AE4-47E8-4C55-AA27-E67BC339BDDB}
+	EndGlobalSection
+EndGlobal
